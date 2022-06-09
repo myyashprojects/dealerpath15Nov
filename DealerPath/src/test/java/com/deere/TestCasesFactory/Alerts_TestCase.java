@@ -33,7 +33,7 @@ public class Alerts_TestCase extends BaseClass {
 
 	@Test(priority = 1) // Aniket
 	public static void verifyAlertsPortletContent() throws Throwable {
-		
+		//updating just a comment	
 		LogFactory.beginTestCase(" Verify alerts portlet content ");
 		List<LinkedHashMap> userWCMContent = ExcelFactory.getWCMContentDetails("AT-Alert");
 
